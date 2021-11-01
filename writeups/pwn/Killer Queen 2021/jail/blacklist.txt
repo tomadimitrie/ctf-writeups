@@ -1,0 +1,1 @@
+cat grep nano import eval subprocess input sys execfile open exec for dir file input write while echo print int os read
